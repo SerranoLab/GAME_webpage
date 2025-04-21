@@ -33,8 +33,8 @@ window.addEventListener("resize", () => {
 // 4) Load player sprites and compute frame size
 const playerLeft = new Image();
 const playerRight = new Image();
-playerLeft.src = "https://i.ibb.co/hR5tj1gF/zebrafish-left.png";
-playerRight.src = "https://i.ibb.co/pv7RQNBk/zebrafish-right.png";
+playerLeft.src = "https://i.ibb.co/1Gv8LCvH/zebrafish-left.png";
+playerRight.src = "https://i.ibb.co/B2fHC3RD/zebrafish-right.png";
 
 // grid dimensions
 const COLS = 4,
@@ -184,7 +184,7 @@ function popAndRemove(i){
 
 // 7) Bubble text (unchanged)
 let bubbleTextArray = [];
-let adjustX = -11,
+let adjustX = -6,
   adjustY = -3;
 ctx.fillStyle = "white";
 ctx.font = "10px Verdana";
